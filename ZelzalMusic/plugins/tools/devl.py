@@ -49,12 +49,3 @@ async def yas(client, message):
             ]
         ),
     )
-        reply_markup=InlineKeyboardMarkup(
-        [
-            [
-                InlineKeyboardButton("𝐃ᴇᴠᴇʟᴏᴘᴇʀ", user_id=117913435),
-                InlineKeyboardButton("𝐒ᴏụʀᴄᴇ", url="t.me/mmmsc"),
-            ],
-            ]
-        ),
-    )
