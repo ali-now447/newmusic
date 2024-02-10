@@ -1,13 +1,7 @@
-import os
-import random
-import asyncio
-from pyrogram import Client,filters
-from strings.filters import command
-from pyrogram.types import (Message,
-InlineKeyboardMarkup,InlineKeyboardButton)
-from typing import Union
+from pyrogram import Client, filters
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
+from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
 from ZelzalMusic import app
-
 @app.on_message(
     command(["المطور"])
     & filters.group
