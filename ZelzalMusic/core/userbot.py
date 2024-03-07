@@ -55,10 +55,10 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("ZThon_Music")
+                await self.one.join_chat("mmmsc")
                 await self.one.join_chat("Zelzal_Music")
-                await self.one.join_chat("AAAl1l")
-                await self.one.join_chat("ZThon")
+                await self.one.join_chat("lllcz")
+                await self.one.join_chat("lllcz")
                 await self.one.join_chat("Zed_Thon")
             except:
                 pass
@@ -79,9 +79,9 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("Zelzal_Music")
-                await self.two.join_chat("AAAl1l")
-                await self.two.join_chat("ZThon")
+                await self.two.join_chat("mmmsc")
+                await self.two.join_chat("lllcz")
+                await self.two.join_chat("mmmsc")
                 await self.two.join_chat("Zed_Thon")
             except:
                 pass
@@ -102,10 +102,10 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("Zelzal_Music")
-                await self.three.join_chat("AAAl1l")
-                await self.three.join_chat("ZThon")
-                await self.three.join_chat("Zed_Thon")
+                await self.three.join_chat("mmmsc")
+                await self.three.join_chat("mmmsc")
+                await self.three.join_chat("lllcz")
+                await self.three.join_chat("lllcz")
             except:
                 pass
             assistants.append(3)
@@ -125,10 +125,10 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("Zelzal_Music")
+                await self.four.join_chat("mmmsc")
                 await self.four.join_chat("AAAl1l")
-                await self.four.join_chat("ZThon")
-                await self.four.join_chat("Zed_Thon")
+                await self.four.join_chat("lllcz")
+                await self.four.join_chat("mmmsc")
             except:
                 pass
             assistants.append(4)
